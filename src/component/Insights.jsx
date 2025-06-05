@@ -17,15 +17,15 @@ export default function Insights() {
   )
 
   return (
-    <div className='w-full px-28 pt-[6rem] min-h-screen mt-16 bg-blue-200 p-6 rounded-[4rem]'>
+    <div className='w-full px-28 pt-[6rem] min-h-screen  mt-16 bg-blue-600 p-6 rounded-t-3xl'>
 
-    <h1 className="text-2xl  font-semibold  text-blue-800">Insights (PDFs)</h1>
+      <h1 className="text-2xl  font-semibold  text-blue-100">Insights (PDFs)</h1>
       {/* <p className='text-1xl uppercase ' >Note on the way  ____________________</p> */}
 
-<p className='text-5xl font-bold py-2.5  uppercase leading-11' >Discover your pdf </p>
+      <p className='text-[8rem] my-[3.2rem] font-bold text-amber-200 uppercase leading-11' >Discover your pdf </p>
 
-<h6 className='pb-6 text-2xl  w-3xl'>RBU Note is a free web application that provides notes of rbu teacher at one place, You can access notes any where without downloading it .</h6>
-   
+      <p className='pb-6 text-center text-white text-2xl leading-8 text-shadow-whites  w-3xl m-auto'>RBU Note is a free web application that provides notes of rbu teacher at one place, You can access notes any where without downloading it .</p>
+
       {/* Search Bar */}
       <div className="mb-8 flex flex-col sm:flex-row gap-4">
         <input
@@ -33,11 +33,11 @@ export default function Insights() {
           placeholder="Search PDFs..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="flex-1 px-4 py-2 rounded-lg border border-black-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 px-4 py-2 rounded-lg text-amber-50 border placeholder-amber-100 border-black-300 focus:outline-none focus:ring-2 focus:ring-blue-100"
         />
         <button
           onClick={() => setSearchTerm('')}
-          className="px-6 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition"
+          className="px-6 py-2 bg-amber-200 text-blue rounded-lg hover:bg-blue-800 transition"
         >
           Clear Filter
         </button>
