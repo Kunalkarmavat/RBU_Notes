@@ -10,7 +10,7 @@ function Hero() {
 
                 <p className='text-5xl font-bold uppercase leading-14' >Score better in your class with our notes </p>
 
-                <h6 className='pb-6 w-3/4'>RBU Note is a free web application that provides notes of rbu teacher at one place, You can access notes any where without download the notes .</h6>
+                <h6 className='pb-6 w-3/4'>RBU Note is a free web application that provides notes of rbu teacher at one place, You can access notes any where without downloading it .</h6>
 
 
                 <button className=' px-18 py-4 bg-blue-500 text-amber-50  rounded '>LETS CHECK</button>
@@ -19,6 +19,7 @@ function Hero() {
                 <img src={noteimg} alt="Logo" className='w-full' />
 
             </div>
+            
         </div>
 
     )
