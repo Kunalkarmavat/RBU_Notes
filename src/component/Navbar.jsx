@@ -28,9 +28,10 @@ function Navbar() {
         </ul>
 
         {/* Registration Button */}
-        <button className="hidden md:block hover:bg-black hover:text-white r px-12 py-2 border border-black">
+        <button className="hidden rounded-[2rem] md:block hover:bg-black hover:text-white r px-12 py-2 border border-black">
           CONTACT
         </button>
+        
       </div>
 
       {/* Mobile Menu Icon */}

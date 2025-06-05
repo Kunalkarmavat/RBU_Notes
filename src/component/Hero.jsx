@@ -13,7 +13,7 @@ function Hero() {
                 <h6 className='pb-6 w-3/4'>RBU Note is a free web application that provides notes of rbu teacher at one place, You can access notes any where without downloading it .</h6>
 
 
-                <button className=' px-18 py-4 bg-blue-500 text-amber-50  rounded '>LETS CHECK</button>
+                <button className='rounded-[31rem] px-18 py-4 bg-amber-200 border-black border-1 shadow-2xl shadow-amber-200 text-black-500'>LETS CHECK</button>
             </div>
             <div className='w-110 '>
                 <img src={noteimg} alt="Logo" className='w-full' />
